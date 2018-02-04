@@ -19,8 +19,8 @@ Notebook for quick search can be found [here](https://ssq.github.io/2017/08/28/C
   - Build a deep neural network using Keras
   - Implement a skip-connection in your network
   - Clone a repository from github and use transfer learning
-  - [Keras - Tutorial - Happy House v2](https://github.com/SSQ/Coursera-Ng-Convolutional-Neural-Networks/tree/master/Week%202%20PA%201%20Keras%20-%20Tutorial%20-%20Happy%20House%20v2)
-  - [Residual Networks - v2](https://github.com/SSQ/Coursera-Ng-Convolutional-Neural-Networks/tree/master/Week%202%20PA%202%20Residual%20Networks%20-%20v2)
+  - [x] [Keras - Tutorial - Happy House v2](https://github.com/SSQ/Coursera-Ng-Convolutional-Neural-Networks/tree/master/Week%202%20PA%201%20Keras%20-%20Tutorial%20-%20Happy%20House%20v2)
+  - [x] [Residual Networks - v2](https://github.com/SSQ/Coursera-Ng-Convolutional-Neural-Networks/tree/master/Week%202%20PA%202%20Residual%20Networks%20-%20v2)
   
 - Week 3
 - Week 4
