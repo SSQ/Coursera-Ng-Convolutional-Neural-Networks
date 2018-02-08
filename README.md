@@ -22,5 +22,12 @@ Notebook for quick search can be found [here](https://ssq.github.io/2017/08/28/C
   - [x] [Keras - Tutorial - Happy House v2](https://github.com/SSQ/Coursera-Ng-Convolutional-Neural-Networks/tree/master/Week%202%20PA%201%20Keras%20-%20Tutorial%20-%20Happy%20House%20v2)
   - [x] [Residual Networks - v2](https://github.com/SSQ/Coursera-Ng-Convolutional-Neural-Networks/tree/master/Week%202%20PA%202%20Residual%20Networks%20-%20v2)
   
-- Week 3
-- Week 4
+- Week 3 Object detection
+  - Understand the challenges of Object Localization, Object Detection and Landmark Finding
+  - Understand and implement non-max suppression
+  - Understand and implement intersection over union
+  - Understand how we label a dataset for an object detection application
+  - Remember the vocabulary of object detection (landmark, anchor, bounding box, grid, ...)
+  - [x] [Car detection with YOLOv2](https://github.com/SSQ/Coursera-Ng-Convolutional-Neural-Networks/tree/master/Week%203%20PA%201%20Car%20detection%20with%20YOLOv2)
+  
+- Week 4 Special applications: Face recognition & Neural style transfer
