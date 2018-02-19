@@ -1,8 +1,26 @@
 # Keras tutorial - the Happy House
+![](images/house-members.png)
 
 # Goal
 - Learn to use Keras, a high-level neural networks API (programming framework), written in Python and capable of running on top of several lower-level frameworks including TensorFlow and CNTK.
 - See how you can in a couple of hours build a deep learning algorithm.
+
+# Data and accuracy
+```
+number of training examples = 600
+number of test examples = 150
+X_train shape: (600, 64, 64, 3)
+Y_train shape: (600, 1)
+X_test shape: (150, 64, 64, 3)
+Y_test shape: (150, 1)
+```
+
+```
+150/150 [==============================] - 1s     
+
+Loss = 0.08163527044
+Test Accuracy = 0.973333337307
+```
 
 # File Description
 - `.ipynb` file is the solution of Week 2 program assignment 1
@@ -51,3 +69,30 @@ def model(input_shape):
 # What you should remember from this notebook:
 - Keras is a tool we recommend for rapid prototyping. It allows you to quickly try out different model architectures. Are there any applications of deep learning to your daily life that you'd like to implement using Keras?
 - Remember how to code a model in Keras and the four steps leading to the evaluation of your model on the test set. Create->Compile->Fit/Train->Evaluate/Test.
+
+# Model structure
+```
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_13 (InputLayer)        (None, 64, 64, 3)         0         
+_________________________________________________________________
+zero_padding2d_15 (ZeroPaddi (None, 70, 70, 3)         0         
+_________________________________________________________________
+conv_1 (Conv2D)              (None, 68, 68, 32)        896       
+_________________________________________________________________
+bn_1 (BatchNormalization)    (None, 68, 68, 32)        128       
+_________________________________________________________________
+activation_22 (Activation)   (None, 68, 68, 32)        0         
+_________________________________________________________________
+max_pool_1 (MaxPooling2D)    (None, 34, 34, 32)        0         
+_________________________________________________________________
+flatten_12 (Flatten)         (None, 36992)             0         
+_________________________________________________________________
+fc3 (Dense)                  (None, 1)                 36993     
+=================================================================
+Total params: 38,017
+Trainable params: 37,953
+Non-trainable params: 64
+_________________________________________________________________
+```
