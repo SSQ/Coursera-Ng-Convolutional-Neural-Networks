@@ -1,5 +1,5 @@
 # Keras tutorial - the Happy House
-![](images/house-members.png)
+<img src="images/happy-house.jpg" width="25%" height="25%" />
 
 # Goal
 - Learn to use Keras, a high-level neural networks API (programming framework), written in Python and capable of running on top of several lower-level frameworks including TensorFlow and CNTK.
@@ -29,6 +29,7 @@ Test Accuracy = 0.973333337307
   - Keras+-+Tutorial+-+Happy+House+v2.html
 - `.py` file
   - Keras+-+Tutorial+-+Happy+House+v2.py
+  - kt_utils.py
 - file
   - Keras+-+Tutorial+-+Happy+House+v2.md
   
