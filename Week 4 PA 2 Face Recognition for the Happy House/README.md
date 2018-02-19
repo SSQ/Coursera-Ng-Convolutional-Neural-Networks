@@ -15,7 +15,8 @@ Face recognition problems commonly fall into two categories:
   - Face+Recognition+for+the+Happy+House+-+v3.html
 - `.py` file
   - Face+Recognition+for+the+Happy+House+-+v3.py
-  - yolo_utils.py
+  - fr_utils.py
+  - inception_blocks_v2.py
 - file
   - Face+Recognition+for+the+Happy+House+-+v3.md
   
