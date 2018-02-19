@@ -31,3 +31,7 @@ Notebook for quick search can be found [here](https://ssq.github.io/2017/08/28/C
   - [x] [Car detection with YOLOv2](https://github.com/SSQ/Coursera-Ng-Convolutional-Neural-Networks/tree/master/Week%203%20PA%201%20Car%20detection%20with%20YOLOv2)
   
 - Week 4 Special applications: Face recognition & Neural style transfer
+  - Understand One Shot Learning, Siamese Network, Triplet Loss
+  - Understand Content Cost Function, Style Cost Function, 1D and 3D Generalizations
+  - [x] [Deep Learning & Art: Neural Style Transfer](https://github.com/SSQ/Coursera-Ng-Convolutional-Neural-Networks/tree/master/Week%204%20PA%201%20Art%20generation%20with%20Neural%20Style%20Transfer)
+  - [x] [Face Recognition for the Happy House](https://github.com/SSQ/Coursera-Ng-Convolutional-Neural-Networks/tree/master/Week%204%20PA%202%20Face%20Recognition%20for%20the%20Happy%20House)
